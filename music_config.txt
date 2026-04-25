@@ -1,0 +1,15 @@
+      - name: 大眠
+        artist: 小乐哥
+        url: /music/02 小乐哥 - 大眠.mp3
+        cover: /music/cover.jpg
+        lrc:
+      - name: 李荣浩
+        artist: 不遗憾
+        url: /music/不遗憾 - 李荣浩.mp3
+        cover: /music/cover.jpg
+        lrc:
+      - name: 奢香夫人-凤凰传奇.320
+        artist: 未知歌手
+        url: /music/奢香夫人-凤凰传奇.320.mp3
+        cover: /music/cover.jpg
+        lrc:

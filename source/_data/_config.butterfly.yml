@@ -1,0 +1,62 @@
+# ==============================================================
+# Butterfly 主题配置
+# ==============================================================
+# 主题文档: https://butterfly.js.org/
+
+# 头像
+avatar:
+  url: /img/avatar.png
+  effect: true
+
+# 社交链接
+social:
+  GitHub: https://github.com/wfh168 || fab fa-github
+  E-mail: mailto:wfh168@example.com || fas fa-envelope
+
+# 菜单
+menu:
+  首页: / || fa-solid fa-home
+  归档: /archives/ || fa-solid fa-archive
+  标签: /tags/ || fa-solid fa-tags
+  分类: /categories/ || fa-solid fa-folder-open
+  关于: /about/ || fa-solid fa-heart
+
+# Footer
+footer:
+  custom: '© 2025 <a href="https://github.com/wfh168">wfh168</a> | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://butterfly.js.org" target="_blank">Butterfly</a>'
+
+# 首页文章卡片
+index_post_content:
+  method: 1      # 1: 描述文字截断(有 <!-- more --> 截断)  2: 完全显示  3: 不显示
+  cover: true    # 是否显示封面
+  excerpt_link: true
+
+# 文章页面
+post:
+  code:
+    copy: true
+    language:
+      default: text
+  copyright:
+    enable: true
+    license: '本文采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 协议进行许可。'
+
+# 评论
+comments:
+  enable: true
+  type: utterances
+  utterances:
+    repo: wfh168/wfh168.github.io
+    issue-term: pathname
+    theme: github-light
+    crossorigin: anonymous
+
+# 搜索
+jsonContent:
+  search: true
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: false
+    tags: false
